@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – Eric Risher</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #0d0d0d;
+      border-bottom: 1px solid #222;
+      padding: 1.5rem 6vw;
+    }
+
+    .main-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #f4a261;
+    }
+
+    .subtitle {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      color: #ccc;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #f4a261;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+    }
+
+    /* ABOUT PAGE LAYOUT */
+    main {
+      padding: 4rem 6vw;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 350px;
+      gap: 2.5rem;
+      align-items: flex-start;
+      margin-bottom: 4rem;
+    }
+
+    @media (max-width: 900px) {
+      .split {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .portrait {
+      width: 100%;
+      border-radius: 6px;
+      background-color: #222;
+      object-fit: cover;
+    }
+
+    h1, h2 {
+      color: #f4a261;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 3rem;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #666;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="main-nav">
+      <div class="nav-left">
+        <a href="index.html" class="logo">ERIC RISHER</a>
+        <span class="subtitle">DOCUMENTARY EDITOR</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html" class="active">ABOUT</a></li>
+        <li><a href="consultations.html">CONSULTATIONS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ABOUT SECTION WITH PORTRAIT -->
+    <div class="split">
+      <div>
+        <h1>About</h1>
+
+        <p>
+          Hello! My name is Eric. I'm a queer, non-binary documentary film editor — originally from Ohio, now based in Oakland — with over a decade of experience shaping compelling, character-driven nonfiction stories.
+        </p>
+
+        <p>
+          I’ve collaborated with directors across the country on projects ranging from feature documentaries
+          to short-form storytelling and branded content. I'm drawn to narratives about human rights, nature, and anything that gives a voice to the voiceless.
+        </p>
+
+        <p>
+          My work has screened at festivals such as Sundance, San Francisco Film Festival, Frameline, Mountain Film Festival, Rocky Mountain Women's Film Festival, and more — and aired on platforms like PBS and Netflix.
+        </p>
+
+        <p>
+          In 2017, I was awarded a Regional Emmy Award for my work.
+        </p>
+
+        <p>
+          I also have perpetual baby-face, but I assure you I'm 37.
+        </p>
+      </div>
+
+      <div>
+        <img src="IMG_3264.jpg" alt="Portrait of Eric Risher" class="portrait" />
+      </div>
+    </div>
+
+    <!-- EDITING PHILOSOPHY -->
+    <h1>Editing Philosophy</h1>
+
+    <p>
+      Editing — particularly with nonfiction — is an exercise in empathy. I believe it is my job to listen to the material that is provided and then reflect back what I see. I strive to minimize personal bias and highlight the truths of those being portrayed. I believe editing is a collaborative process, and I want to make your vision a reality.
+    </p>
+
+    <p>
+      Editing is like bumper bowling: you set up the pins, install the guardrails, and hope the audience walks away with a strike. Ultimately, we can't roll the ball for them. But it's my role to listen to your objectives so the audience can hit as many pins as possible.
+    </p>
+
+    <!-- PROCESS -->
+    <h1>Process</h1>
+
+    <p>
+      I'm comfortable leading an edit, jumping into a work-in-progress, or collaborating closely with directors to finesse a cut.
+    </p>
+
+    <p>
+      After discussing your vision, I like to allow myself to be absorbed by the material and find the best path to highlighting your goals. I will never be afraid to voice an opinion if I believe a perspective needs to be heard; but I believe that film is a collaboration and I will do anything I can to serve your vision.
+    </p>
+
+  </main>
+
+  <footer>
+    © 2025 Eric Risher. All rights reserved. Contact:
+    <a href="mailto:risher88@gmail.com" style="color: #999;">risher88@gmail.com</a>
+  </footer>
+
+</body>
+</html>

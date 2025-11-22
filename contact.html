@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Eric Risher</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+
+    /* HEADER STYLES */
+    header {
+      background-color: #0d0d0d;
+      border-bottom: 1px solid #222;
+      padding: 1.5rem 6vw;
+    }
+
+    .main-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #f4a261;
+    }
+
+    .subtitle {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      color: #ccc;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #f4a261;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+    }
+
+    /* MAIN CONTENT */
+    main {
+      padding: 4rem 6vw;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #f4a261;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: #ddd;
+    }
+
+    .contact-block {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-item {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #fff;
+    }
+
+    .contact-item span {
+      display: block;
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      color: #888;
+      margin-bottom: 0.25rem;
+    }
+
+    .contact-item a {
+      color: #f4a261;
+      text-decoration: none;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #666;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="main-nav">
+      <div class="nav-left">
+        <a href="index.html" class="logo">ERIC RISHER</a>
+        <span class="subtitle">DOCUMENTARY EDITOR</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="consultations.html">CONSULTATIONS</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <h1>Contact</h1>
+
+    <p>
+      I’m always happy to connect with directors, producers, and collaborators.  
+      Whether you’re exploring a project, looking for an editor, or just want to start a conversation, feel free to reach out.
+    </p>
+
+    <div class="contact-block">
+      <div class="contact-item">
+        <span>Email</span>
+        <a href="mailto:risher88@gmail.com">risher88@gmail.com</a>
+      </div>
+
+      <div class="contact-item">
+        <span>Phone</span>
+        <a href="tel:+13304151451">(330) 415-1451</a>
+      </div>
+
+      <div class="contact-item">
+        <span>Location</span>
+        Oakland, California
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Eric Risher. All rights reserved. Contact:
+    <a href="mailto:risher88@gmail.com" style="color:#999;">risher88@gmail.com</a>
+  </footer>
+
+</body>
+</html>

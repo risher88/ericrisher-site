@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eric Risher – Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #0d0d0d;
+      border-bottom: 1px solid #222;
+      padding: 1.5rem 6vw;
+    }
+
+    .main-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #f4a261;
+    }
+
+    .subtitle {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      color: #ccc;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #f4a261;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+    }
+
+    /* UPDATED: 50% less space under header */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 4rem;
+      padding: 0.5rem 6vw 3rem;   /* changed from 1rem → 0.5rem */
+      min-height: calc(100vh - 250px);
+    }
+
+    .intro, .demo-reel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .intro h2 {
+      font-size: 0.9rem;
+      letter-spacing: 0.15em;
+      color: #a1a1a1;
+      margin-bottom: 0.5rem;
+    }
+
+    .intro h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      margin: 0;
+    }
+
+    .intro h3 {
+      font-weight: 400;
+      font-size: 1rem;
+      letter-spacing: 0.1em;
+      margin: 1rem 0 1.5rem;
+      color: #cccccc;
+    }
+
+    .intro p {
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      color: #dddddd;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+    }
+
+    .view-work {
+      background-color: #f4a261;
+      color: #000;
+    }
+
+    .about-process {
+      background-color: #1a1a1a;
+      color: #fff;
+      border: 1px solid #444;
+    }
+
+    .location-note {
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    .demo-reel iframe {
+      border-radius: 6px;
+      background-color: #111;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #666;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="main-nav">
+      <div class="nav-left">
+        <a href="index.html" class="logo">ERIC RISHER</a>
+        <span class="subtitle">DOCUMENTARY EDITOR</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="consultations.html">CONSULTATIONS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>FILM EDITING</h2>
+      <h1>ERIC RISHER</h1>
+      <h3>DOCUMENTARY FILM EDITOR</h3>
+      <p>
+        I edit intimate, character-driven nonfiction — helping directors find the emotional spine of their story while staying honest to the people on screen.
+      </p>
+      <div class="buttons">
+        <a href="work.html" class="view-work">VIEW WORK</a>
+        <a href="about.html" class="about-process">ABOUT / PROCESS</a>
+      </div>
+      <div class="location-note">
+        Based in Oakland, California • Available for remote and on-site collaborations
+      </div>
+    </section>
+
+    <aside class="demo-reel">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1139500285?h=bd2070338e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DEMO REEL 2025"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </aside>
+  </main>
+
+  <footer>
+    © 2025 Eric Risher. All rights reserved. Contact:
+    <a href="mailto:risher88@gmail.com" style="color:#999;">risher88@gmail.com</a>
+  </footer>
+
+</body>
+</html>
+	

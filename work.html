@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Work | Eric Risher</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 2rem;
+      background-color: #0b0b0b;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1rem;
+      color: #ffa458;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-size: 0.75rem;
+      margin-left: 0.5rem;
+      color: #ccc;
+    }
+
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #ffa458;
+    }
+
+    .content {
+      padding: 3rem 2rem 5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #ffa458;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #ffa458;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 3rem;
+    }
+
+    .work-item {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .pbs-viral-player-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .pbs-viral-player-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .work-item h3 {
+      margin: 1rem 0 0.4rem;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .work-item p {
+      margin: 0;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.75rem;
+      color: #666;
+      border-top: 1px solid #222;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <span class="logo">ERIC RISHER</span>
+      <span class="subtitle">DOCUMENTARY EDITOR</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="work.html" class="active">Work</a>
+      <a href="about.html">About</a>
+      <a href="consultations.html">Consultations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Selected Work</h1>
+    <hr style="border: none; border-top: 1px solid #333; margin: 1rem 0 2rem;" />
+
+    <h2>Documentaries</h2>
+    <div class="work-grid">
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/1139015052?h=a119dbbcec&badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="The Fandom (2020) - 4K"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>The Fandom</h3>
+        <p>Documentary Feature</p>
+	<p>Editor/Co-Director</p>
+      </div>
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/748883918?h=c9d368f970&badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="Garden Story"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>Garden Story</h3>
+        <p>Documentary Short</p>
+	<p>Editor/Cinematographer</p>
+      </div>
+
+      <div class="work-item">
+        <div class="pbs-viral-player-wrapper">
+          <iframe src="https://player.pbs.org/viralplayer/3060213378/"
+                  allowfullscreen allow="encrypted-media"
+                  title="Our Time (PBS)">
+          </iframe>
+        </div>
+        <h3>Our Time</h3>
+        <p>Television Series (PBS)</p>
+	<p>Series Editor/Narrator (3 Seasons)</p>
+      </div>
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/890497249?h=eb70af5a96&badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="Quail Lake Meditation"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>Quail Lake Meditation</h3>
+        <p>Documentary Short</p>
+	<p>Editor</p>
+      </div>
+
+    </div>
+
+    <h2>Trailers & Ads</h2>
+    <div class="work-grid">
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/565896641?badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="We Are Tenacious Trailer"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>We Are Tenacious</h3>
+        <p>Feature Documentary Trailer</p>
+      </div>
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/342322630?badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="Unsettled Trailer"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>Unsettled</h3>
+        <p>Feature Documentary Trailer</p>
+      </div>
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/1121590416?h=de59ef7c9b&badge=0&autopause=0&player_id=0&app_id=58479"
+                  title="RMWFF 2025 Bumper"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>Rocky Mountain Women's Film Festival</h3>
+        <p>2025 Bumper</p>
+      </div>
+
+      <div class="work-item">
+        <div class="embed-container">
+          <iframe src="https://player.vimeo.com/video/1004580277?h=db8010e39f&badge=0&autopause=0&player_id=0&app_id=58479/embed"
+                  title="Second Skin Trailer"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <h3>Second Skin</h3>
+        <p>Documentary Trailer</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Eric Risher. All rights reserved. Website handcrafted with intention.
+  </footer>
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
